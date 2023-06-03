@@ -4,7 +4,7 @@ import BackgroundCircles from "./Background Circles";
 
 const Banner = () => {
   return (
-    <div className="h-screen md:-mt-10 -mt-20  flex flex-col space-y-5 justify-center items-center overflow-hidden z-10 ">
+    <div className="text-center md:text-left h-screen md:-mt-10 -mt-20  flex flex-col space-y-5 justify-center items-center overflow-hidden z-10 ">
       <BackgroundCircles/>
       <section
         id="home"
