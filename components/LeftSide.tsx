@@ -1,6 +1,6 @@
 import React from 'react'
 import {TbBrandGithub} from 'react-icons/tb'
-import {RiLinkedinLine,RiFacebookFill} from 'react-icons/ri'
+import {RiLinkedinLine,RiFacebookLine} from 'react-icons/ri'
 import {FiInstagram} from 'react-icons/fi'
 
 
@@ -15,7 +15,7 @@ const LeftSide = () => {
                 <span className='w-10 h-10 text-xl bg-hoverColor rounded-full inline-flex items-center justify-center hover:text-black cursor-pointer hover:-translate-y-2 transition-all duration-300'><RiLinkedinLine/></span>
             </a>
             <a href="https://www.facebook.com/pratap.karmakar.144" target='_blank'>
-                <span className='w-10 h-10 text-xl bg-hoverColor rounded-full inline-flex items-center justify-center hover:text-black cursor-pointer hover:-translate-y-2 transition-all duration-300'><RiFacebookFill/></span>
+                <span className='w-10 h-10 text-xl bg-hoverColor rounded-full inline-flex items-center justify-center hover:text-black cursor-pointer hover:-translate-y-2 transition-all duration-300'><RiFacebookLine/></span>
             </a>
             <a href="https://www.instagram.com/hashtag_pratap/" target='_blank'>
                 <span className='w-10 h-10 text-xl bg-hoverColor rounded-full inline-flex items-center justify-center hover:text-black cursor-pointer hover:-translate-y-2 transition-all duration-300'><FiInstagram/></span>

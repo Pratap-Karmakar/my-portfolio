@@ -5,7 +5,7 @@ import Link from "next/link";
 import { easeOut, motion } from "framer-motion";
 import { CgClose } from "react-icons/cg";
 import { TbBrandGithub } from "react-icons/tb";
-import { RiLinkedinLine, RiFacebookFill } from "react-icons/ri";
+import { RiLinkedinLine, RiFacebookLine } from "react-icons/ri";
 import { FiInstagram } from "react-icons/fi";
 
 const Navbar = () => {
@@ -211,7 +211,7 @@ const Navbar = () => {
                     target="_blank"
                   >
                     <span className="w-10 h-10 text-xl bg-hoverColor rounded-full inline-flex items-center justify-center text-black cursor-pointer transition-all duration-300">
-                      <RiFacebookFill />
+                      <RiFacebookLine />
                     </span>
                   </motion.a>
                   <motion.a
