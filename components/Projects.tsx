@@ -1,7 +1,9 @@
 import React from "react";
 import SectionTitle from "./SectionTitle";
 import Image from "next/image";
-import screenshot from "../public/Screenshot.png";
+import octoworld from "../public/octoworld.png";
+import sharkchat from "../public/sharkchat.png";
+import screenshot from '../public/Screenshot.png'
 import { TbBrandGithub } from "react-icons/tb";
 import { RxOpenInNewWindow } from "react-icons/rx";
 
@@ -16,12 +18,12 @@ const Projects = () => {
           <div className="flex flex-col xl:flex-row gap-6">
             <a
               className="w-full xl:w-1/2 h-auto relative group"
-              href="https://social-media-pratap.vercel.app/"
+              href="https://octoworld.vercel.app/"
               target="_blank"
             >
               <div>
                 <Image
-                  src={screenshot}
+                  src={octoworld}
                   alt="project image"
                   className="w-full h-full object-contain"
                 />
@@ -59,7 +61,7 @@ const Projects = () => {
 
                 <a
                   className="text-textOrange"
-                  href="https://social-media-pratap.vercel.app/"
+                  href="https://octoworld.vercel.app/"
                   target="_blank"
                 >
                   <RxOpenInNewWindow className="animate-pulse hover:animate-none"/>
@@ -73,12 +75,12 @@ const Projects = () => {
           <div className="flex flex-col xl:flex-row-reverse gap-6">
             <a
               className="w-full xl:w-1/2 h-auto relative group"
-              href="https://social-media-pratap.vercel.app/"
+              href="https://sharkchat.vercel.app/"
               target="_blank"
             >
               <div>
                 <Image
-                  src={screenshot}
+                  src={sharkchat}
                   alt="project image"
                   className="w-full h-full object-contain"
                 />
@@ -88,15 +90,13 @@ const Projects = () => {
               <p className="font-titleFont text-textOrange text-sm tracking-wide">
                 Featured Project
               </p>
-              <h3 className="text-2xl font-bold">OctoWorld</h3>
+              <h3 className="text-2xl font-bold">SharkChat</h3>
               <p className="bg-[#333232] xl:-mr-16 text-sm md:text-base p-2 md:p-6 rounded-md">
-                A Social media web site built with{" "}
+                A RealTime Chat web site built with{" "}
                 <span className="text-textOrange">
-                  Next.js, tailwind, NextAuth, Firebase
+                  Next.js, tailwind, NextAuth, Firebase,
                 </span>{" "}
-                where one can post any Thoughts, Images along with emojies,
-                everyone can like any post and one can delete any post if he is
-                the author of that post.
+                It's a group chat web application where a lot of people can login at a same time and can have the experience of a RealTime Chat.
               </p>
               <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
                 <li>Next.js</li>
@@ -108,7 +108,7 @@ const Projects = () => {
               <div className="text-2xl flex gap-4">
                 <a
                   className="text-textOrange"
-                  href="https://github.com/Pratap-Karmakar/octoworld"
+                  href="https://github.com/Pratap-Karmakar/chat"
                   target="_blank"
                 >
                   <TbBrandGithub className="animate-pulse hover:animate-none"/>
@@ -116,7 +116,7 @@ const Projects = () => {
 
                 <a
                   className="text-textOrange"
-                  href="https://social-media-pratap.vercel.app/"
+                  href="https://sharkchat.vercel.app/"
                   target="_blank"
                 >
                   <RxOpenInNewWindow className="animate-pulse hover:animate-none"/>
