@@ -5,7 +5,7 @@ import octoworld from "../public/octoworld.png";
 import sharkchat from "../public/sharkchat.png";
 import screenshot from '../public/Screenshot.png'
 import { TbBrandGithub } from "react-icons/tb";
-import { RxOpenInNewWindow } from "react-icons/rx";
+import { BsGlobe2 } from "react-icons/bs";
 
 const Projects = () => {
   return (
@@ -64,7 +64,7 @@ const Projects = () => {
                   href="https://octoworld.vercel.app/"
                   target="_blank"
                 >
-                  <RxOpenInNewWindow className="animate-pulse hover:animate-none"/>
+                  <BsGlobe2 className="animate-pulse hover:animate-none"/>
                 </a>
               </div>
             </div>
@@ -119,7 +119,7 @@ const Projects = () => {
                   href="https://sharkchat.vercel.app/"
                   target="_blank"
                 >
-                  <RxOpenInNewWindow className="animate-pulse hover:animate-none"/>
+                  <BsGlobe2 className="animate-pulse hover:animate-none"/>
                 </a>
               </div>
             </div>
@@ -176,7 +176,7 @@ const Projects = () => {
                   href="https://social-media-pratap.vercel.app/"
                   target="_blank"
                 >
-                  <RxOpenInNewWindow className="animate-pulse hover:animate-none"/>
+                  <BsGlobe2 className="animate-pulse hover:animate-none"/>
                 </a>
               </div>
             </div>
