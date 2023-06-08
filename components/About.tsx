@@ -38,7 +38,7 @@ const About = () => {
               JavaScript
             </li>
             <li className="flex items-center gap-2">
-              <Image src={nextjs} alt="nextjs" className="h-5 w-5" />
+              <Image src={nextjs} alt="nextjs" className="h-5 w-5 bg-white rounded-sm" />
               Next.js
             </li>
             <li className="flex items-center gap-2">
