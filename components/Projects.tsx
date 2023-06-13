@@ -163,7 +163,7 @@ const Projects = () => {
               <div className="text-2xl flex gap-4">
                 <a
                   className="text-textOrange"
-                  href="https://github.com/Pratap-Karmakar/octoworld"
+                  href="https://github.com/Pratap-Karmakar/video-app"
                   target="_blank"
                 >
                   <TbBrandGithub className="animate-pulse hover:animate-none"/>
