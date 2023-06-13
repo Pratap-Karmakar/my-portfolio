@@ -158,7 +158,7 @@ const Projects = () => {
                 <li>Next-Auth</li>
                 <li>Tailwind</li>
                 <li>Firebase</li>
-                <li>vercel Deployement</li>
+                <li>Netlify Deployement</li>
               </ul>
               <div className="text-2xl flex gap-4">
                 <a
