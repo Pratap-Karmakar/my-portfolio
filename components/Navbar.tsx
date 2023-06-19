@@ -73,7 +73,7 @@ const Navbar = () => {
               </motion.li>
             </Link>
           </ul>
-          <a href="#assets/Certificate.pdf" target="_blank">
+          <a href="https://drive.google.com/file/d/13UGLJ0hSD2kCl1lGzT6cGqET3OmUSbxz/view?usp=drive_link" target="_blank">
             <motion.button
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
@@ -86,7 +86,7 @@ const Navbar = () => {
         </div>
 
         {/* Icon for phone*/}
-        {/* we made this dis group so theat inside this div everything will be their children */}
+        {/* we made this div group so that inside this div everything will be their children */}
         <div
           onClick={() => setShowMenu(true)}
           className="w-6 h-5 flex flex-col justify-between items-center mdl:hidden text-4xl text-textOrange cursor-pointer overflow-hidden group"
