@@ -60,10 +60,12 @@ export default function BackgroundCircles({}: Props) {
 //         duration: 2.5
 //     }}
 //     className='relative flex justify-center items-center'>
-//         <div className='absolute border border-[#333333] rounded-full h-[150px] w-[160px] mt-[500px] animate-ping animate-spin'/>
-//         <div className='absolute border border-[#333333] rounded-full h-[247px] w-[250px] mt-[500px] animate-spin'/>
-//         <div className='absolute border border-[#333333] rounded-full h-[450px] w-[453px] mt-[500px] animate-spin'/>
-//         <div className='absolute border border-[#F7AB0A] rounded-full h-[600px] w-[600px] mt-[500px] opacity-20 animate-pulse'/>
+//         <div className='absolute border border-[#333333] rounded-full h-[150px] w-[150px] mt-[500px] animate-ping'/>
+//         <div className='absolute border border-[#333333] rounded-full h-[150px] w-[160px] mt-[500px] animate-spin'/>
+//         <div className='absolute border border-[#333333] rounded-full h-[245px] w-[250px] mt-[500px] animate-spin'/>
+//         <div className='absolute border border-[#333333] rounded-full h-[450px] w-[455px] mt-[500px] animate-spin'/>
+//         <div className='absolute border border-[#333333] rounded-full h-[450px] w-[450px] mt-[500px] animate-ping'/>
+//         <div className='absolute border border-[#ff9900] rounded-full h-[605px] w-[600px] mt-[500px] opacity-20 animate-spin'/>
 //         <div className='absolute border border-[#333333] rounded-full h-[750px] w-[755px] mt-[500px] animate-spin'/>
 //     </motion.div>
 //   )
