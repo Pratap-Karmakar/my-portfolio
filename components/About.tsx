@@ -22,11 +22,7 @@ const About = () => {
       <div className="flex flex-col lgl:flex-row gap-16">
         <div className="w-full lgl:w-2/3 text-base text-textDark font-medium flex flex-col gap-4">
           <p>
-            Hello! I am a self-taught Web Application Developer with a strong
-            passion for Frontend Web-Development. My specialization lies in
-            creating highly responsive client-side web applications using
-            React.js. I am also proficient in the Next.js framework and familiar
-            with Node.js, Express.js, and MongoDB.
+            Hello! I am a skilled Web Application Developer with a deep passion for Frontend Web Development. My expertise revolves around crafting highly responsive client-side web applications, utilizing technologies such as React.js, Next.js, JavaScript, TypeScript, HTML, CSS, Bootstrap, and Tailwind CSS.
           </p>
           <p className="pt-5 text-textLight">
             Here are few technologies I have been working with recently :
