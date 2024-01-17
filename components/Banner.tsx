@@ -34,10 +34,7 @@ const Banner = () => {
         animate={{opacity:1, y:0}}
         transition={{duration:0.5, delay:0.8}}
          className="text-base md:max-w-[650px] text-textDark font-medium">
-          I am a web developer with 18 months of development experience in React. I have a
-          strong foundation in front-end development and skilled in creating
-          responsive as well as user-friendly web applications using React and it's
-          ecosystem.{" "}
+          I am a skilled Web Application Developer with a deep passion for Frontend Web Development. My expertise revolves around crafting highly responsive client-side web applications, utilizing technologies such as React.js, Next.js, JavaScript, TypeScript, HTML, CSS, Bootstrap, and Tailwind CSS.{" "}
         </motion.p>{" "}
       </section>
     </div>
