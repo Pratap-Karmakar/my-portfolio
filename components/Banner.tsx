@@ -37,7 +37,7 @@ const Banner = () => {
           I am a web developer with 18 months of development experience in React. I have a
           strong foundation in front-end development and skilled in creating
           responsive as well as user-friendly web applications using React and it's
-          ecosystem.{" "}
+          ecosystem.I love coding and enjoy learning new languages and frameworks to enhance my skills.{" "}
         </motion.p>{" "}
       </section>
     </div>
