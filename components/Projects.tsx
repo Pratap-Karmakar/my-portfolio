@@ -332,7 +332,7 @@ const Projects = () => {
               <div className="text-2xl flex gap-4">
                 <a
                   className="text-textOrange"
-                  href="https://github.com/Pratap-Karmakar/newwomensafety"
+                  href="https://github.com/Pratap-Karmakar/HerShield"
                   target="_blank"
                 >
                   <TbBrandGithub className="animate-pulse hover:animate-none"/>
