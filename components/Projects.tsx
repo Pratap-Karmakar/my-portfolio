@@ -4,9 +4,9 @@ import Image from "next/image";
 import octoworld from "../public/projects/octoworld.png";
 import sharkchat from "../public/projects/sharkchat.png";
 import foxmovies from '../public/projects/foxmovies.png'
-import jewellery from '../public/projects/jewellery.png'
 import codecraftstudio from '../public/projects/codecraftstudio.png'
 import hershield from '../public/projects/hershield.png'
+import gleamgrace from '../public/projects/gleamgrace.png'
 import { TbBrandGithub } from "react-icons/tb";
 import { BsGlobe2 } from "react-icons/bs";
 
@@ -21,12 +21,12 @@ const Projects = () => {
           <div className="flex flex-col xl:flex-row gap-6">
             <a
               className="w-full xl:w-1/2 h-auto relative group"
-              href="https://jewellery-orpin.vercel.app/"
+              href="https://gleam-grace.vercel.app/"
               target="_blank"
             >
               <div>
                 <Image
-                  src={jewellery}
+                  src={gleamgrace}
                   alt="project image"
                   className="w-full h-full object-contain"
                 />
@@ -36,7 +36,7 @@ const Projects = () => {
               <p className="font-titleFont text-textOrange text-sm tracking-wide">
                 Featured Project
               </p>
-              <h3 className="text-2xl font-bold">Jewellery</h3>
+              <h3 className="text-2xl font-bold">Gleam & Grace</h3>
               <p className="bg-[#333232]   shadow-navbarShadow text-sm md:text-base p-2 md:p-6 rounded-md">
                 A E-Commerce web site built with{" "}
                 <span className="text-textOrange">
@@ -54,7 +54,7 @@ const Projects = () => {
               <div className="text-2xl flex gap-4">
                 <a
                   className="text-textOrange"
-                  href="https://github.com/Pratap-Karmakar/jewellery"
+                  href="https://github.com/Pratap-Karmakar/Gleam-Grace"
                   target="_blank"
                 >
                   <TbBrandGithub className="animate-pulse hover:animate-none"/>
@@ -62,7 +62,7 @@ const Projects = () => {
 
                 <a
                   className="text-textOrange"
-                  href="https://jewellery-orpin.vercel.app/"
+                  href="https://gleam-grace.vercel.app/"
                   target="_blank"
                 >
                   <BsGlobe2 className="animate-pulse hover:animate-none"/>
