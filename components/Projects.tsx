@@ -38,7 +38,7 @@ const Projects = () => {
               </p>
               <h3 className="text-2xl font-bold">Gleam & Grace</h3>
               <p className="bg-[#333232]   shadow-navbarShadow text-sm md:text-base p-2 md:p-6 rounded-md">
-                A E-Commerce web site built with{" "}
+                An E-Commerce web site built with{" "}
                 <span className="text-textOrange">
                   React.js, Redux, tailwind, Firebase Auth, Firebase
                 </span>{" "}
