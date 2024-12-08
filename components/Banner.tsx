@@ -8,7 +8,7 @@ const Banner = () => {
       <BackgroundCircles/>
       <section
         id="home"
-        className="max-w-contentContainer mx-auto py-10 md:ml-10 mdl:py-24 flex flex-col gap-4 lgl:gap-8 mdl:px-10 xl:px-4 z-20"
+        className="max-w-contentContainer mx-auto py-10 md:ml-40 mdl:py-24 flex flex-col gap-4 lgl:gap-8 mdl:px-10 xl:px-4 z-20"
       >
         <motion.h3
           initial={{ y: 10, opacity: 0 }}
@@ -34,7 +34,7 @@ const Banner = () => {
         animate={{opacity:1, y:0}}
         transition={{duration:0.5, delay:0.8}}
          className="text-base md:max-w-[650px] text-textDark font-medium">
-          I am a web developer with 18 months of development experience in React. I have a
+          I am a web developer with 24 months of development experience in React. I have a
           strong foundation in front-end development and skilled in creating
           responsive as well as user-friendly web applications using React and it's
           ecosystem.I love coding and enjoy learning new languages and frameworks to enhance my skills.{" "}

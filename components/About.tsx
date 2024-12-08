@@ -69,7 +69,7 @@ const About = () => {
                 <Image
                   src={avatar}
                   alt="avatar"
-                  className="md:h-[350px] h-[200px] md:w-[500px] w-[200px] object-cover items-center justify-center rounded-full md:rounded-lg bg-gradient-to-b bg-[#F7AB0A]/10 md:-ml-6 md:-mt-0 -mt-6 ml-20"
+                  className="md:h-[350px] h-[200px] md:w-[550px] w-[200px] object-cover items-center justify-center rounded-full md:rounded-lg bg-gradient-to-b bg-[#F7AB0A]/10 md:-ml-6 md:-mt-0 -mt-6 ml-30"
                 />
               {/* <div className="hidden lgl:inline-block absolute w-full h-80 bg-textOrange/20 rounded-md top-0 left-0 group-hover:bg-transparent duration-300"></div>
               <div className="hidden lgl:inline-flex w-full h-80 border-2 border-textOrange rounded-md group-hover:-translate-x-2 group-hover:-translate-y-2 transition-transform duration-300"></div> */}
