@@ -39,7 +39,7 @@ const Projects = () => {
               <p className="bg-[#333232]   shadow-navbarShadow text-sm md:text-base p-2 md:p-6 rounded-md">
                 A E-Commerce web site built with{" "}
                 <span className="text-textOrange">
-                  React.js, tailwind, Firebase Auth, Firebase
+                  React.js, Redux, tailwind, Firebase Auth, Firebase
                 </span>{" "}
                 where user can choose jewellery by their category or search for a specific jewellery and add to cart, we can also increase or decrease the quantity of jewellery or remove from the cart and place the order after filling the required details. and the admin can add jewellery or delete jewellery and update the jewellery details as well as manage all the orders and users as well.
               </p>
