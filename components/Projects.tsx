@@ -46,10 +46,10 @@ const Projects = () => {
               </p>
               <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
                 <li>React.js</li>
+                <li>Redux</li>
                 <li>Firebaase-Auth</li>
                 <li>Tailwind</li>
                 <li>Firebase</li>
-                <li>vercel Deployement</li>
               </ul>
               <div className="text-2xl flex gap-4">
                 <a
