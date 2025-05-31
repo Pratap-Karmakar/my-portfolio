@@ -12,10 +12,10 @@ import { BsGlobe2 } from "react-icons/bs";
 
 const Projects = () => {
   return (
-    <section id="projects" className="max-w-container mx-auto lgl:px-20 py-24">
-      <SectionTitle title="Some Sites I have Built" titleno="02" />
+    <section id="projects" className="max-w-container mx-auto lgl:px-20 lgl:py-24 sm:py-2">
+      <SectionTitle title="Some Sites I have Built" titleno="03" />
 
-      <div className="w-full flex flex-col items-center justify-between gap-14 mt-10">
+      <div className="w-full flex flex-col items-center justify-between lgl:gap-14 sm:gap-2 lgl:mt-10 sm:mt-1">
         {/* Project 1 */}
         <div className="w-full flex flex-col items-center justify-center gap-28 mt-10">
           <div className="flex flex-col xl:flex-row gap-6">
@@ -72,7 +72,7 @@ const Projects = () => {
           </div>
         </div>
         {/* Project 2 */}
-        <div className="w-full flex flex-col items-center justify-center gap-28 mt-10">
+        {/* <div className="w-full flex flex-col items-center justify-center gap-28 mt-10">
           <div className="flex flex-col xl:flex-row-reverse gap-6">
             <a
               className="w-full xl:w-1/2 h-auto relative group"
@@ -125,7 +125,7 @@ const Projects = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
         {/* Project 3 */}
         <div className="w-full flex flex-col items-center justify-center gap-28 mt-10">
           <div className="flex flex-col xl:flex-row gap-6">
@@ -238,7 +238,7 @@ const Projects = () => {
         </div>
 
         {/* Project 5 */}
-        <div className="w-full flex flex-col items-center justify-center gap-28 mt-10">
+        {/* <div className="w-full flex flex-col items-center justify-center gap-28 mt-10">
           <div className="flex flex-col xl:flex-row gap-6">
             <a
               className="w-full xl:w-1/2 h-auto relative group"
@@ -293,7 +293,7 @@ const Projects = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
 
         {/* Project 6 */}
         <div className="w-full flex flex-col items-center justify-center gap-28 mt-10">

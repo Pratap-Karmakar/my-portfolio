@@ -34,7 +34,7 @@ const Banner = () => {
         animate={{opacity:1, y:0}}
         transition={{duration:0.5, delay:0.8}}
          className="text-base md:max-w-[650px] text-textDark font-medium">
-          I am a web developer with 24 months of development experience in React. I have a
+          I am a web developer with 36 months of development experience and 5 months of work experience in React. I have a
           strong foundation in front-end development and skilled in creating
           responsive as well as user-friendly web applications using React and it's
           ecosystem.I love coding and enjoy learning new languages and frameworks to enhance my skills.{" "}

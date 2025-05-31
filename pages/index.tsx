@@ -10,6 +10,7 @@ import Skills from "@/components/Skills";
 import Projects from "@/components/Projects";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
+import ExperienceSection from "@/components/ExperienceSection";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -37,9 +38,10 @@ export default function Home() {
           </motion.div> 
           
 
-          <div className="h-[88vh] mx-auto p-4 w-full md:ml-16">
+          <div className="h-[88vh] mx-auto p-4 w-full lgl:ml-16 md:m-0">
             <Banner />
             <About/>
+            <ExperienceSection/>
             <Projects/>
             <Contact/>
             <Footer/>
